@@ -1,0 +1,5 @@
+[INFO ][14:02:24,493][http-nio-8082-exec-3][ ][cn.sunline.adp.cedar.server.online.server.OnlineAccessServiceFacade:226][Service [/hello/getMeassageByName] processing time [48933]ms]
+[INFO ][14:09:30,588][http-nio-8082-exec-1][ ][cn.sunline.adp.cedar.server.online.server.OnlineAccessServiceFacade:226][Service [/hello/getMeassageByName] processing time [387]ms]
+[INFO ][14:30:35,037][http-nio-8082-exec-1][ ][cn.sunline.adp.cedar.server.online.server.OnlineAccessServiceFacade:226][Service [/hello/getMeassageByName] processing time [269]ms]
+[INFO ][14:31:20,564][http-nio-8082-exec-2][ ][cn.sunline.adp.cedar.server.online.server.OnlineAccessServiceFacade:226][Service [/hello/getMeassageByName] processing time [18220]ms]
+[INFO ][15:16:32,988][http-nio-8082-exec-1][ ][cn.sunline.adp.cedar.server.online.server.OnlineAccessServiceFacade:226][Service [/hello/getMeassageByName] processing time [9058]ms]

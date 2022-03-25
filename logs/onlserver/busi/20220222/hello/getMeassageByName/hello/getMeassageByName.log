@@ -1,0 +1,189 @@
+[WARN ][14:01:35,619][http-nio-8082-exec-3][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.dao.datasource.conn.DefaultDBConnectionManager:415][The current connection has been executed beginTransaction, no need to repeat!]
+[INFO ][14:01:35,619][http-nio-8082-exec-3][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.core.reloader.ConfigReloaderFactory:133][The current thread starts to bind configuration parameters]
+[INFO ][14:01:35,621][http-nio-8082-exec-3][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.before.OETLogBeforeProcessHandler:44][
+-------------------------business service[hello.getMeassageByName][null][1645509683][demo140134579000000012880][] Start-------------------------]
+[INFO ][14:01:35,621][http-nio-8082-exec-3][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.before.OETLogBeforeProcessHandler:46][REQ[{output={}, input={name=liubei}, printer={}, comm_res={}, property={}, link_res={}, header={}, link_req={}, sys={servicecode=/hello/getMeassageByName, busiseqno=1645509683, callseqno=demo140134579000000012880, inservicemark=false, consumersysid=core, consumercallseqno=1645509683, profile={}}, comm_req={bossno=null, call_seq=demo140134579000000012880, maxsubtransno=null, globalTranSeqNo=null, tranno=null, consumercallseqno=1645509683, reversalseqno=null, inservicemark=false, trantimestamp=null, acctno=null, consumersysid=core, busi_seq=1645509683, origsysid=null, origsrvid=null}}]]
+[WARN ][14:02:24,471][http-nio-8082-exec-3][ ][ ][ ][/hello/getMeassageByName][com.ctrip.framework.apollo.core.utils.DeferredLogger:324][Could not load config for namespace TEST1.traffic-mesh.properties from Apollo, please check whether the configs are released in Apollo! Return default value now!]
+[INFO ][14:02:24,476][http-nio-8082-exec-3][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.after.OETSetResponseHeadHandler:37][getTxnTempObjMap:{}]
+[INFO ][14:02:24,480][http-nio-8082-exec-3][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.dao.datasource.transaction.impl.DefaultTransactionManager$1:93][DB-1[Commit][FRWDB], DB cumulative time [0]]
+[INFO ][14:02:24,488][http-nio-8082-exec-3][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.base.logging.TraceLogUtil:74][]
+[INFO ][14:02:24,488][http-nio-8082-exec-3][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.last.OETDumpDebugInfoHandler:37][
+Public run variable assignment
+	Field mapping
+<transaction start>
+<transaction input interface data mapping>
+	Field mapping
+		name->name=liubei
+<transaction attribute interface data mapping>
+	Field mapping
+<transaction output interface data mapping>
+	Field mapping
+		name->name=null
+		routeProcess->routeProcess=null
+Field mapping
+	name->name=liubei
+Field mapping
+	name->name=liubei
+	routeProcess->routeProcess=[{port-2=8082}]
+<transaction output variable mapping>
+	Field mapping
+		name->name=liubei
+		routeProcess->routeProcess=[{port-2=8082}]
+<End of transaction>
+<Common response variable output to data area>
+	Field mapping
+]
+[INFO ][14:02:24,489][http-nio-8082-exec-3][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.last.OETLogResponseHandler:31][RES[{sys={erortx=\u4EA4\u6613\u6210\u529F, pckgsq=00000000, erorcd=AAAAAAAAAA, status=S, maxsubtransno=}, comm_res={}, output={name=liubei, routeProcess=[{port-2=8082}]}, printer={}}]]
+[INFO ][14:02:24,489][http-nio-8082-exec-3][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.last.OETLogResponseHandler:45][
+-------------------------business service[hello.getMeassageByName][null][1645509683][demo140134579000000012880][] End-------------------------]
+[WARN ][14:09:30,305][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.dao.datasource.conn.DefaultDBConnectionManager:415][The current connection has been executed beginTransaction, no need to repeat!]
+[INFO ][14:09:30,306][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.core.reloader.ConfigReloaderFactory:133][The current thread starts to bind configuration parameters]
+[INFO ][14:09:30,308][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.before.OETLogBeforeProcessHandler:44][
+-------------------------business service[hello.getMeassageByName][null][1645510166][demo140928632000000012880][] Start-------------------------]
+[INFO ][14:09:30,309][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.before.OETLogBeforeProcessHandler:46][REQ[{output={}, input={name=liubei}, printer={}, comm_res={}, property={}, link_res={}, header={}, link_req={}, sys={servicecode=/hello/getMeassageByName, busiseqno=1645510166, callseqno=demo140928632000000012880, inservicemark=false, consumersysid=core, consumercallseqno=1645510166, profile={}}, comm_req={bossno=null, call_seq=demo140928632000000012880, maxsubtransno=null, globalTranSeqNo=null, tranno=null, consumercallseqno=1645510166, reversalseqno=null, inservicemark=false, trantimestamp=null, acctno=null, consumersysid=core, busi_seq=1645510166, origsysid=null, origsrvid=null}}]]
+[WARN ][14:09:30,553][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][com.ctrip.framework.apollo.core.utils.DeferredLogger:324][Could not load config for namespace TEST1.traffic-mesh.properties from Apollo, please check whether the configs are released in Apollo! Return default value now!]
+[INFO ][14:09:30,563][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.after.OETSetResponseHeadHandler:37][getTxnTempObjMap:{}]
+[INFO ][14:09:30,568][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.dao.datasource.transaction.impl.DefaultTransactionManager$1:93][DB-1[Commit][FRWDB], DB cumulative time [0]]
+[INFO ][14:09:30,580][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.base.logging.TraceLogUtil:74][]
+[INFO ][14:09:30,581][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.last.OETDumpDebugInfoHandler:37][
+Public run variable assignment
+	Field mapping
+<transaction start>
+<transaction input interface data mapping>
+	Field mapping
+		name->name=liubei
+<transaction attribute interface data mapping>
+	Field mapping
+<transaction output interface data mapping>
+	Field mapping
+		name->name=null
+		routeProcess->routeProcess=null
+Field mapping
+	name->name=liubei
+Field mapping
+	name->name=liubei
+	routeProcess->routeProcess=[{port-2=8082}]
+<transaction output variable mapping>
+	Field mapping
+		name->name=liubei
+		routeProcess->routeProcess=[{port-2=8082}]
+<End of transaction>
+<Common response variable output to data area>
+	Field mapping
+]
+[INFO ][14:09:30,581][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.last.OETLogResponseHandler:31][RES[{sys={erortx=\u4EA4\u6613\u6210\u529F, pckgsq=00000000, erorcd=AAAAAAAAAA, status=S, maxsubtransno=}, comm_res={}, output={name=liubei, routeProcess=[{port-2=8082}]}, printer={}}]]
+[INFO ][14:09:30,582][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.last.OETLogResponseHandler:45][
+-------------------------business service[hello.getMeassageByName][null][1645510166][demo140928632000000012880][] End-------------------------]
+[WARN ][14:30:34,849][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.dao.datasource.conn.DefaultDBConnectionManager:415][The current connection has been executed beginTransaction, no need to repeat!]
+[INFO ][14:30:34,850][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.core.reloader.ConfigReloaderFactory:133][The current thread starts to bind configuration parameters]
+[INFO ][14:30:34,852][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.before.OETLogBeforeProcessHandler:44][
+-------------------------business service[hello.getMeassageByName][null][1645511413][demo143033603000000012880][] Start-------------------------]
+[INFO ][14:30:34,852][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.before.OETLogBeforeProcessHandler:46][REQ[{output={}, input={name=liubei}, printer={}, comm_res={}, property={}, link_res={}, header={}, link_req={}, sys={servicecode=/hello/getMeassageByName, busiseqno=1645511413, callseqno=demo143033603000000012880, inservicemark=false, consumersysid=core, consumercallseqno=1645511413, profile={}}, comm_req={bossno=null, call_seq=demo143033603000000012880, maxsubtransno=null, globalTranSeqNo=null, tranno=null, consumercallseqno=1645511413, reversalseqno=null, inservicemark=false, trantimestamp=null, acctno=null, consumersysid=core, busi_seq=1645511413, origsysid=null, origsrvid=null}}]]
+[WARN ][14:30:34,995][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][com.ctrip.framework.apollo.core.utils.DeferredLogger:324][Could not load config for namespace TEST1.traffic-mesh.properties from Apollo, please check whether the configs are released in Apollo! Return default value now!]
+[INFO ][14:30:35,015][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.after.OETSetResponseHeadHandler:37][getTxnTempObjMap:{}]
+[INFO ][14:30:35,020][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.dao.datasource.transaction.impl.DefaultTransactionManager$1:93][DB-1[Commit][FRWDB], DB cumulative time [0]]
+[INFO ][14:30:35,030][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.base.logging.TraceLogUtil:74][]
+[INFO ][14:30:35,031][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.last.OETDumpDebugInfoHandler:37][
+Public run variable assignment
+	Field mapping
+<transaction start>
+<transaction input interface data mapping>
+	Field mapping
+		name->name=liubei
+<transaction attribute interface data mapping>
+	Field mapping
+<transaction output interface data mapping>
+	Field mapping
+		name->name=null
+		routeProcess->routeProcess=null
+Field mapping
+	name->name=liubei
+Field mapping
+	name->name=liubei
+	routeProcess->routeProcess=[{port-2=8082}]
+<transaction output variable mapping>
+	Field mapping
+		name->name=liubei
+		routeProcess->routeProcess=[{port-2=8082}]
+<End of transaction>
+<Common response variable output to data area>
+	Field mapping
+]
+[INFO ][14:30:35,032][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.last.OETLogResponseHandler:31][RES[{sys={erortx=\u4EA4\u6613\u6210\u529F, pckgsq=00000000, erorcd=AAAAAAAAAA, status=S, maxsubtransno=}, comm_res={}, output={name=liubei, routeProcess=[{port-2=8082}]}, printer={}}]]
+[INFO ][14:30:35,032][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.last.OETLogResponseHandler:45][
+-------------------------business service[hello.getMeassageByName][null][1645511413][demo143033603000000012880][] End-------------------------]
+[WARN ][14:31:02,348][http-nio-8082-exec-2][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.dao.datasource.conn.DefaultDBConnectionManager:415][The current connection has been executed beginTransaction, no need to repeat!]
+[INFO ][14:31:02,348][http-nio-8082-exec-2][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.core.reloader.ConfigReloaderFactory:133][The current thread starts to bind configuration parameters]
+[INFO ][14:31:02,348][http-nio-8082-exec-2][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.before.OETLogBeforeProcessHandler:44][
+-------------------------business service[hello.getMeassageByName][null][1645511459][demo143102329000000026152][] Start-------------------------]
+[INFO ][14:31:02,349][http-nio-8082-exec-2][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.before.OETLogBeforeProcessHandler:46][REQ[{output={}, input={name=liubei}, printer={}, comm_res={}, property={}, link_res={}, header={}, link_req={}, sys={servicecode=/hello/getMeassageByName, busiseqno=1645511459, callseqno=demo143102329000000026152, inservicemark=false, consumersysid=core, consumercallseqno=1645511459, profile={}}, comm_req={bossno=null, call_seq=demo143102329000000026152, maxsubtransno=null, globalTranSeqNo=null, tranno=null, consumercallseqno=1645511459, reversalseqno=null, inservicemark=false, trantimestamp=null, acctno=null, consumersysid=core, busi_seq=1645511459, origsysid=null, origsrvid=null}}]]
+[INFO ][14:31:20,558][http-nio-8082-exec-2][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.after.OETSetResponseHeadHandler:37][getTxnTempObjMap:{}]
+[INFO ][14:31:20,562][http-nio-8082-exec-2][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.dao.datasource.transaction.impl.DefaultTransactionManager$1:93][DB-2[Commit][FRWDB], DB cumulative time [0]]
+[INFO ][14:31:20,562][http-nio-8082-exec-2][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.base.logging.TraceLogUtil:74][]
+[INFO ][14:31:20,563][http-nio-8082-exec-2][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.last.OETDumpDebugInfoHandler:37][
+Public run variable assignment
+	Field mapping
+<transaction start>
+<transaction input interface data mapping>
+	Field mapping
+		name->name=liubei
+<transaction attribute interface data mapping>
+	Field mapping
+<transaction output interface data mapping>
+	Field mapping
+		name->name=null
+		routeProcess->routeProcess=null
+Field mapping
+	name->name=liubei
+Field mapping
+	name->name=liubei
+	routeProcess->routeProcess=[{port-2=8082}]
+<transaction output variable mapping>
+	Field mapping
+		name->name=liubei
+		routeProcess->routeProcess=[{port-2=8082}]
+<End of transaction>
+<Common response variable output to data area>
+	Field mapping
+]
+[INFO ][14:31:20,563][http-nio-8082-exec-2][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.last.OETLogResponseHandler:31][RES[{sys={erortx=\u4EA4\u6613\u6210\u529F, pckgsq=00000000, erorcd=AAAAAAAAAA, status=S, maxsubtransno=}, comm_res={}, output={name=liubei, routeProcess=[{port-2=8082}]}, printer={}}]]
+[INFO ][14:31:20,563][http-nio-8082-exec-2][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.last.OETLogResponseHandler:45][
+-------------------------business service[hello.getMeassageByName][null][1645511459][demo143102329000000026152][] End-------------------------]
+[WARN ][15:16:24,024][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.dao.datasource.conn.DefaultDBConnectionManager:415][The current connection has been executed beginTransaction, no need to repeat!]
+[INFO ][15:16:24,024][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.core.reloader.ConfigReloaderFactory:133][The current thread starts to bind configuration parameters]
+[INFO ][15:16:24,026][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.before.OETLogBeforeProcessHandler:44][
+-------------------------business service[hello.getMeassageByName][null][1645514181][demo151622977000000012880][] Start-------------------------]
+[INFO ][15:16:24,026][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.before.OETLogBeforeProcessHandler:46][REQ[{output={}, input={name=liubei}, printer={}, comm_res={}, property={}, link_res={}, header={}, link_req={}, sys={servicecode=/hello/getMeassageByName, busiseqno=1645514181, callseqno=demo151622977000000012880, inservicemark=false, consumersysid=core, consumercallseqno=1645514181, profile={}}, comm_req={bossno=null, call_seq=demo151622977000000012880, maxsubtransno=null, globalTranSeqNo=null, tranno=null, consumercallseqno=1645514181, reversalseqno=null, inservicemark=false, trantimestamp=null, acctno=null, consumersysid=core, busi_seq=1645514181, origsysid=null, origsrvid=null}}]]
+[WARN ][15:16:32,967][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][com.ctrip.framework.apollo.core.utils.DeferredLogger:324][Could not load config for namespace TEST1.traffic-mesh.properties from Apollo, please check whether the configs are released in Apollo! Return default value now!]
+[INFO ][15:16:32,971][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.after.OETSetResponseHeadHandler:37][getTxnTempObjMap:{}]
+[INFO ][15:16:32,974][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.dao.datasource.transaction.impl.DefaultTransactionManager$1:93][DB-1[Commit][FRWDB], DB cumulative time [0]]
+[INFO ][15:16:32,983][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.base.logging.TraceLogUtil:74][]
+[INFO ][15:16:32,984][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.last.OETDumpDebugInfoHandler:37][
+Public run variable assignment
+	Field mapping
+<transaction start>
+<transaction input interface data mapping>
+	Field mapping
+		name->name=liubei
+<transaction attribute interface data mapping>
+	Field mapping
+<transaction output interface data mapping>
+	Field mapping
+		name->name=null
+		routeProcess->routeProcess=null
+Field mapping
+	name->name=liubei
+Field mapping
+	name->name=liubei
+	routeProcess->routeProcess=[{port-2=8082}]
+<transaction output variable mapping>
+	Field mapping
+		name->name=liubei
+		routeProcess->routeProcess=[{port-2=8082}]
+<End of transaction>
+<Common response variable output to data area>
+	Field mapping
+]
+[INFO ][15:16:32,984][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.last.OETLogResponseHandler:31][RES[{sys={erortx=\u4EA4\u6613\u6210\u529F, pckgsq=00000000, erorcd=AAAAAAAAAA, status=S, maxsubtransno=}, comm_res={}, output={name=liubei, routeProcess=[{port-2=8082}]}, printer={}}]]
+[INFO ][15:16:32,985][http-nio-8082-exec-1][ ][ ][ ][/hello/getMeassageByName][cn.sunline.adp.cedar.engine.online.handler.last.OETLogResponseHandler:45][
+-------------------------business service[hello.getMeassageByName][null][1645514181][demo151622977000000012880][] End-------------------------]
