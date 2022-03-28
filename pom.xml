@@ -10,16 +10,15 @@
         <artifactId>edsp-parent</artifactId>
         <version>2.1.1-RELEASE</version>
     </parent>
+    <!--  <packaging>pom</packaging> -->
     <properties>
         <access-rule>*;**/*</access-rule>
         <adp.maven.version>3.1.0-M11</adp.maven.version>
         <edsp.dependencies.bom>3.1.1-RELEASE</edsp.dependencies.bom>
-        <!--		 <adp.cedar.version>4.3.5-RELEASE</adp.cedar.version>-->
-        <!-- <adp.cedar.version>4.2.18-BE
-        TA-obase3</adp.cedar.version>-->
-        <adp.cedar.version>4.3.14-BETA-25</adp.cedar.version>
+        <adp.cedar.version>4.3.14-BETA-25</adp.cedar.version><!--4.3.21-RELEASE-->
         <edsp-module>true</edsp-module>
         <curator.recipes.version>2.8.0</curator.recipes.version>
+        <edsp-traffic-mash.version>6.1.0-BETA5</edsp-traffic-mash.version>
     </properties>
     <dependencies>
         <dependency>
@@ -30,14 +29,23 @@
         <dependency>
             <groupId>cn.sunline.edsp</groupId>
             <artifactId>edsp-traffic-mesh-starter</artifactId>
-            <version>5.0.35-RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.sunline.edsp</groupId>
+            <artifactId>edsp-traffic-mesh-government-datasource-apollo</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-            <version>2.1.4.RELEASE</version>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>com.alibaba.cloud</groupId>-->
+        <!--            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>-->
+        <!--            <version>2.1.0.RELEASE</version>-->
+        <!--        </dependency>-->
+        <!--       	<dependency>-->
+        <!--            <groupId>com.alibaba.cloud</groupId>-->
+        <!--            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>-->
+        <!--            <version>2.1.4.RELEASE</version>-->
+        <!--        </dependency>-->
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -53,6 +61,10 @@
             <groupId>cn.sunline.adp</groupId>
             <artifactId>adp-boot-starter</artifactId>
             <exclusions>
+                <exclusion>
+                    <groupId>org.apache.shardingsphere</groupId>
+                    <artifactId>shardingsphere-jdbc-core-spring-boot-starter</artifactId>
+                </exclusion>
                 <exclusion>
                     <groupId>cn.sunline.edsp.midware</groupId>
                     <artifactId>edsp-txc-mongodb</artifactId>
@@ -85,12 +97,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <dependency>
-            <groupId>org.jetbrains</groupId>
-            <artifactId>annotations</artifactId>
-            <version>RELEASE</version>
-            <scope>compile</scope>
-        </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>
@@ -117,6 +123,17 @@
                 <groupId>org.apache.curator</groupId>
                 <artifactId>curator-framework</artifactId>
                 <version>${curator.recipes.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.sunline.edsp</groupId>
+                <artifactId>edsp-traffic-mesh-starter</artifactId>
+                <version>${edsp-traffic-mash.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.sunline.edsp</groupId>
+                <artifactId>edsp-traffic-mesh-government-datasource-apollo</artifactId>
+                <version>${edsp-traffic-mash.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -185,7 +202,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>cn.sunline.edsp.busi.server.ApplicationB</mainClass>
+                    <mainClass>cn.sunline.edsp.busi.server.Application</mainClass>
                 </configuration>
                 <version>2.1.9.RELEASE</version>
                 <executions>
