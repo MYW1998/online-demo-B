@@ -202,7 +202,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>cn.sunline.edsp.busi.server.Application</mainClass>
+                    <mainClass>cn.sunline.edsp.busi.server.ApplicationB</mainClass>
                 </configuration>
                 <version>2.1.9.RELEASE</version>
                 <executions>
