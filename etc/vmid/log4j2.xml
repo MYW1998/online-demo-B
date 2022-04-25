@@ -119,16 +119,16 @@
 
 		<Routing name="busi_route">
 			<Routes pattern="$${ctx:ltts_log_type}">
-<!--				<Route key="boot" ref="boot_all" />-->
-<!--				<Route key="poll" ref="poll_thread" />-->
-<!--				<Route key="timer" ref="timer_quartz" />-->
-<!--				<Route key="domain" ref="domain" />-->
-<!--				<Route key="links" ref="links" />-->
-<!--				<Route key="biz.onl" ref="busi_onl" />-->
-<!--				<Route key="biz.job" ref="busi_job" />-->
+				<Route key="boot" ref="boot_all" />
+				<Route key="poll" ref="poll_thread" />
+				<Route key="timer" ref="timer_quartz" />
+				<Route key="domain" ref="domain" />
+				<Route key="links" ref="links" />
+				<Route key="biz.onl" ref="busi_onl" />
+				<Route key="biz.job" ref="busi_job" />
 				<!-- 默认路由日志 -->
 <!--				 <Route ref="default" />-->
-				                <Route ref="busi_console" />
+<!--				                <Route ref="busi_console" />-->
 			</Routes>
 		</Routing>
 

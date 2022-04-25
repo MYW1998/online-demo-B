@@ -24,11 +24,12 @@ public class ApplicationB {
         System.setProperty("env", "DEV");
         System.setProperty("apollo.configService", "http://10.22.4.79:8080");
         //指定启动工程的配置文件。部署时可以用运行命令修改。Java -jar spring.profiles.active = XXX
-        System.setProperty("spring.profiles.active", "apollo");
+        System.setProperty("spring.profiles.active", "local");
         //start up
         CedarMain.main(args);
         //=======================================测试是否拿到bootstrap.yml配置====================================================================
         Properties properties = null;
+        Properties properties2 = null;
         try {
             properties = PropertiesLoaderUtils.loadAllProperties("bootstrap.yml");
         } catch (IOException e) {
